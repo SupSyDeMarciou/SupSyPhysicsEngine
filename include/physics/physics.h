@@ -94,7 +94,7 @@ void physicsGetUpdatedPositions(phys_syst* system, bool smooth);
 void physicsStartSimulation(phys_syst* system, uint nbIter, uint nbSubSteps, double factor);
 /// @brief Set the current physics simulation state
 /// @param active If the simulation is to be active
-void physicsSetSimulationState(uint active);
+void physicsSetSimulationState(bool active);
 /// @brief End the physics simulation
 /// @param system The system currently simulated
 void physicsEndSimulation(phys_syst* system);
